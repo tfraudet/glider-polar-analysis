@@ -4,7 +4,11 @@ The speed polar curve shows the sink rate of a glider against its airspeed. Pola
 
 This project provides various notebook to compute/analysis glider polars.
 
+![glider flight polar ][def]
+
 ## Some usefull links
 
 * [Glider polar from xp-soaring](https://xp-soaring.github.io/dev/polars/polar.html)
 * [Wikipedia](https://en.wikipedia.org/wiki/Drag_curve)
+
+[def]: ./polars-analysis.png
