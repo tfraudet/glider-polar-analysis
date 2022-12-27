@@ -10,5 +10,6 @@ This project provides various notebook to compute/analysis glider polars.
 
 * [Glider polar from xp-soaring](https://xp-soaring.github.io/dev/polars/polar.html)
 * [Wikipedia](https://en.wikipedia.org/wiki/Drag_curve)
+* [How to Execute Jupyter Notebooks from GitHub](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)
 
 [def]: ./polars-analysis.png
