@@ -1,4 +1,4 @@
-# Glider speed polars curve analysis
+# Glider speed polars curve analysis tool
 
 The speed polar curve shows the sink rate of a glider against its airspeed. Polar curves are used to calculate the glider's minimum sink rate, best lift/drag ratio (L/D) and flight speed.
 
