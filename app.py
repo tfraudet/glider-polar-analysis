@@ -116,5 +116,8 @@ app.layout = html.Div(className='', children=[
 	dcc.Store(id='polars-selection', storage_type='memory'),
 ])
 
+# https://pythonprogramming.net/deploy-vps-dash-data-visualization/
+server = app.server
+
 if __name__ == '__main__':
 	app.run(debug=False)
