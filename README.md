@@ -4,7 +4,7 @@ The speed polar curve shows the sink rate of a glider against its airspeed. Pola
 
 This project provides various notebook to compute/analysis glider polars.
 
-![glider flight polar ][main-screen]
+![glider flight polar][main-screen]
 
 ## Requirements
 
@@ -46,7 +46,7 @@ python3 app.py
 
 You shoud see the following in the terminal
 
-![image]dashapp-runing-terminal]
+![terminal screen][dashapp-runing-terminal]
 
 And open browser at [localhost:8050](http://127.0.0.1:8050/)
 
