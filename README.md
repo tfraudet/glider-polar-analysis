@@ -4,7 +4,7 @@ The speed polar curve shows the sink rate of a glider against its airspeed. Pola
 
 This project provides various notebook to compute/analysis glider polars.
 
-![glider flight polar ][def]
+![glider flight polar ][main-screen]
 
 ## Requirements
 
@@ -46,20 +46,33 @@ python3 app.py
 
 You shoud see the following in the terminal
 
-![image][dashapp-runing-terminal]
+![image]dashapp-runing-terminal]
 
 And open browser at [localhost:8050](http://127.0.0.1:8050/)
 
 ## How to run this app locally using docker (pull image)
 
-* docker pull wasa000/waves
-* docker run -p [your port]:8050 wasa000/waves
+```bash
+# pull the image from Docker Hub
+docker pull tfraudet/gliderpolaranalysis:0.9
+
+# Then run the image inside a container, mapping the host’s port 8050 to the container’s port 8050
+docker run -d -p 8050:8050 tfraudet/gliderpolaranalysis:0.9
+````
+
+And open browser at [localhost:8050](http://127.0.0.1:8050/)
 
 ## How to run this app locally using docker (build image)
 
-* [good example docker](https://github.com/danny-baker/atlas)
-* [another example here](https://github.com/SINTEF-9012/SINDIT)
-* [example running gunicorn](https://github.com/Sentdex/socialsentiment/)
+```bash
+# First build the image from dockerfile
+docker build --tag gliderpolaranalysis --file './Dockerfile' .
+
+# Then run the image inside a container, mapping the host’s port 8050 to the container’s port 8050
+docker run -d -p 8050:8050 gliderpolaranalysis:latest
+````
+
+And open browser at [localhost:8050](http://127.0.0.1:8050/)
 
 ## Some usefull links
 
@@ -67,5 +80,5 @@ And open browser at [localhost:8050](http://127.0.0.1:8050/)
 * [Wikipedia](https://en.wikipedia.org/wiki/Drag_curve)
 * [How to Execute Jupyter Notebooks from GitHub](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)
 
-[def]: ./polars-analysis.png
+[main-screen]: ./polars-analysis.png
 [dashapp-runing-terminal]: ./dash-app-runing.png
