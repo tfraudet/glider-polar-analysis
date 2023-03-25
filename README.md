@@ -1,8 +1,11 @@
-# Glider speed polars curve analysis tool
+![GitHub](https://img.shields.io/github/license/tfraudet/glider-polar-analysis) ![GitHub last commit](https://img.shields.io/github/last-commit/tfraudet/glider-polar-analysis)
 
-The speed polar curve shows the sink rate of a glider against its airspeed. Polar curves are used to calculate the glider's minimum sink rate, best lift/drag ratio (L/D) and flight speed.
+# Glider speed polar curve analysis tool
 
-This project provides various notebook to compute/analysis glider polars.
+The speed polar curve shows the sink rate of a glider against its airspeed. Polar curve are used to calculate the glider's minimum sink rate, best lift/drag ratio (L/D) and flight speed. This project provides at tool to compute the flight speed for the minimum sink rate and for the best lift/drag ratio when you increased or decresead the glider's weigh (adding waterballast for example)
+
+* The first tab **Effect of wing loading** allows you seelct a glider polar among the one of the data base and increase or decreased the glider's wing loading, see how the polar shift and what are the new speeds fligt for minimum sink rate and for best L/D ratio.
+* The second tab **Compare Polars** allow ypu to select up to 4 glider polars from the database and compare them.
 
 ![glider flight polar][main-screen]
 
