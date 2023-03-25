@@ -8,41 +8,45 @@ This project provides various notebook to compute/analysis glider polars.
 
 ## Requirements
 
-* Python 3.10 or higher
+* Python 3.10
 
 ## How to run this app locally with python 3
 
-We suggest you to create a virtual environment for running this app with Python 3. Clone this repository and open your terminal/command prompt in the root folder.
+We suggest you to create a virtual environment for running this app with Python 3. Clone this repository and open your terminal/command prompt in a folder.
 
 ```bash
 git clone https://github.com/tfraudet/glider-polar-analysis.git
 cd ./glider-polar-analysis
-python3 -m virtualenv venv
+python3 -m venv myenv
 ```
 
 On Unix systems
 
 ```bash
-source venv/bin/activate
+source myenv/bin/activate
 ```
 
 On Window systems
 
 ```bash
-venv\scripts\activate
+myenv\scripts\activate
 ```
 
 Install all required packages by running:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
-To run the app locally:
+Then run the app locally:
 
 ```bash
-python app.py
+python3 app.py
 ````
+
+You shoud see the following in the terminal
+
+![image][dashapp-runing-terminal]
 
 And open browser at [localhost:8050](http://127.0.0.1:8050/)
 
@@ -64,3 +68,4 @@ And open browser at [localhost:8050](http://127.0.0.1:8050/)
 * [How to Execute Jupyter Notebooks from GitHub](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)
 
 [def]: ./polars-analysis.png
+[dashapp-runing-terminal]: ./dash-app-runing.png
