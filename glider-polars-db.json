@@ -1,109 +1,5693 @@
 [
-    {
-        "name" : "LAK19-18m",
-        "max ballast" : 188,
-        "wing_area" : 9.8,
-        "method" : "3-points",
-        "source" : "SeeYou-1",
-        "wing_loading": 31.5, 
-        "speed": [100,120,150],
-        "sink_rate" : [-0.6, -0.82, -1.34]
-    },
-    {
-        "name" : "LAK19-18m",
-        "max ballast" : 188,
-        "wing_area" : 9.8,
-        "method" : "ABC",
-        "source": "SeeYou-2",
-        "wing_loading": 31.6, 
-        "A": 1.24,
-        "B" : -1.61,
-        "C" : 0.97
-    },
-    {
-        "name" : "LAK19-18m",
-        "max ballast" : 188,
-        "wing_area" : 9.8,
-        "method" : "3-points",
-        "source" : "iGlide",
-        "wing_loading": 30.1, 
-        "speed": [82,125,178],
-        "sink_rate" : [-0.48, -0.7, -2]
-    },
-    {
-        "name" : "LAK19-18m",
-        "max ballast" : 188,
-        "wing_area" : 9.8,
-        "method" : "3-points",
-        "source" : "Manual",
-        "wing_loading": 35.7, 
-        "speed": [100,120,150],
-        "sink_rate" : [-0.6, -0.75, -1.3]
-    },
-    {
-        "name" : "Ventus2-15m",
-        "max ballast" : 0,
-        "wing_area" : 9.67,
-        "method" : "by-hand",
-        "source": "Sandro's Polar - Ref #1",
-        "weight": 330,
-        "speed": [68.84696838, 73.76460897, 78.68224957, 83.59989017, 88.51753077, 93.43517137, 98.35281196, 103.2704526, 108.1880932, 113.1057338, 118.0233744, 122.941015, 127.8586556, 132.7762962, 137.6939368, 142.6115773, 147.5292179, 152.4468585, 157.3644991, 162.2821397, 167.1997803, 172.1174209, 177.0350615, 181.9527021, 186.8703427, 191.7879833, 196.7056239, 201.6232645, 206.5409051, 211.4585457],
-        "sink_rate" : [-0.79,-0.65,-0.59,-0.55,-0.550387253,-0.573848087,-0.598861614,-0.622868057,-0.653421406,-0.695763406,-0.7455988,-0.821517352,-0.905086056,-0.996781735,-1.091231836,-1.188781525,-1.288972367,-1.391577762,-1.50030469,-1.615824322,-1.735788218,-1.861589423,-1.993405703,-2.12970456,-2.274785256,-2.423297486,-2.576628757,-2.735159079,-2.905160439,-3.09895833]
-    },
-    {
-        "name" : "Ventus2-15m",
-        "max ballast" : 0,
-        "wing_area" : 9.67,
-        "method" : "ABC",
-        "source": "Sandro's Polar - Ref #2",
-        "weight" : 430,
-        "A": 1.5,
-        "B" : -2.92,
-        "C" : 2.1 
-    },
-    {
-        "name" : "Ventus2-15m",
-        "max ballast" : 0,
-        "wing_area" : 9.67,
-        "method" : "ABC",
-        "source": "Sandro's Polar - Ref #3",
-        "weight" : 500,
-        "A": 1.391,
-        "B" : -2.92,
-        "C" : 2.2645
-    },
-    {
-        "name" : "Pegase 101A",
-        "max ballast" : 0,
-        "wing_area" : 10.5,
-        "method" : "ABC",
-        "source": "Jim Rennie (Polaren.xls)",
-        "weight" : 330,
-        "A": -0.000212,
-        "B" : 0.033762,
-        "C" : -1.958750
-    },
-    {
-        "name" : "Pegase 101A",
-        "max ballast" : 0,
-        "wing_area" : 10.5,
-        "method" : "ABC",
-        "source": "Seeyou-1",
-        "weight" : 336,
-        "wing_loading": 32.0, 
-        "A": 1.86,
-        "B" : -2.66,
-        "C" : 1.52
-    },
-    {
-        "name" : "Pegase 101A",
-        "max ballast" : 0,
-        "wing_area" : 10.5,
-        "method" : "3-points",
-        "source": "Seeyou-2",
-        "weight" : 336,
-        "wing_loading": 32.0, 
-        "speed": [100,120,150],
-        "sink_rate" : [-0.72, -1.01, -1.71]
-    }
+  {
+    "name": "LAK19-18m",
+    "max ballast": 188,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "SeeYou-1",
+    "wing_loading": 31.5,
+    "speed": [
+      100,
+      120,
+      150
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.82,
+      -1.34
+    ]
+  },
+  {
+    "name": "LAK19-18m",
+    "max ballast": 188,
+    "wing_area": 9.8,
+    "method": "ABC",
+    "source": "SeeYou-2",
+    "wing_loading": 31.6,
+    "A": 1.24,
+    "B": -1.61,
+    "C": 0.97
+  },
+  {
+    "name": "LAK19-18m",
+    "max ballast": 188,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "iGlide",
+    "wing_loading": 30.1,
+    "speed": [
+      82,
+      125,
+      178
+    ],
+    "sink_rate": [
+      -0.48,
+      -0.7,
+      -2
+    ]
+  },
+  {
+    "name": "LAK19-18m",
+    "max ballast": 188,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "Manual",
+    "wing_loading": 35.7,
+    "speed": [
+      100,
+      120,
+      150
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.75,
+      -1.3
+    ]
+  },
+  {
+    "name": "Ventus2-15m",
+    "max ballast": 0,
+    "wing_area": 9.67,
+    "method": "by-hand",
+    "source": "Sandro's Polar - Ref #1",
+    "weight": 330,
+    "speed": [
+      68.84696838,
+      73.76460897,
+      78.68224957,
+      83.59989017,
+      88.51753077,
+      93.43517137,
+      98.35281196,
+      103.2704526,
+      108.1880932,
+      113.1057338,
+      118.0233744,
+      122.941015,
+      127.8586556,
+      132.7762962,
+      137.6939368,
+      142.6115773,
+      147.5292179,
+      152.4468585,
+      157.3644991,
+      162.2821397,
+      167.1997803,
+      172.1174209,
+      177.0350615,
+      181.9527021,
+      186.8703427,
+      191.7879833,
+      196.7056239,
+      201.6232645,
+      206.5409051,
+      211.4585457
+    ],
+    "sink_rate": [
+      -0.79,
+      -0.65,
+      -0.59,
+      -0.55,
+      -0.550387253,
+      -0.573848087,
+      -0.598861614,
+      -0.622868057,
+      -0.653421406,
+      -0.695763406,
+      -0.7455988,
+      -0.821517352,
+      -0.905086056,
+      -0.996781735,
+      -1.091231836,
+      -1.188781525,
+      -1.288972367,
+      -1.391577762,
+      -1.50030469,
+      -1.615824322,
+      -1.735788218,
+      -1.861589423,
+      -1.993405703,
+      -2.12970456,
+      -2.274785256,
+      -2.423297486,
+      -2.576628757,
+      -2.735159079,
+      -2.905160439,
+      -3.09895833
+    ]
+  },
+  {
+    "name": "Ventus2-15m",
+    "max ballast": 0,
+    "wing_area": 9.67,
+    "method": "ABC",
+    "source": "Sandro's Polar - Ref #2",
+    "weight": 430,
+    "A": 1.5,
+    "B": -2.92,
+    "C": 2.1
+  },
+  {
+    "name": "Ventus2-15m",
+    "max ballast": 0,
+    "wing_area": 9.67,
+    "method": "ABC",
+    "source": "Sandro's Polar - Ref #3",
+    "weight": 500,
+    "A": 1.391,
+    "B": -2.92,
+    "C": 2.2645
+  },
+  {
+    "name": "Pegase 101A",
+    "max ballast": 0,
+    "wing_area": 10.5,
+    "method": "ABC",
+    "source": "Jim Rennie (Polaren.xls)",
+    "weight": 330,
+    "A": -0.000212,
+    "B": 0.033762,
+    "C": -1.95875
+  },
+  {
+    "name": "Pegase 101A",
+    "max ballast": 0,
+    "wing_area": 10.5,
+    "method": "ABC",
+    "source": "Seeyou-1",
+    "weight": 336,
+    "wing_loading": 32.0,
+    "A": 1.86,
+    "B": -2.66,
+    "C": 1.52
+  },
+  {
+    "name": "Pegase 101A",
+    "max ballast": 0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "Seeyou-2",
+    "weight": 336,
+    "wing_loading": 32.0,
+    "speed": [
+      100,
+      120,
+      150
+    ],
+    "sink_rate": [
+      -0.72,
+      -1.01,
+      -1.71
+    ]
+  },
+  {
+    "name": "LS-8 (15m)",
+    "max ballast": 185.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.0,
+    "speed": [
+      70.0,
+      115.0,
+      173.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.85,
+      -2.0
+    ]
+  },
+  {
+    "name": "206 Hornet",
+    "max ballast": 100.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 32.4,
+    "speed": [
+      80.0,
+      120.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.606,
+      -0.99,
+      -1.918
+    ]
+  },
+  {
+    "name": "303 Mosquito",
+    "max ballast": 0.0,
+    "wing_area": 9.85,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 45.7,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -0.92,
+      -1.45
+    ]
+  },
+  {
+    "name": "401 Kestrel (17m)",
+    "max ballast": 33.0,
+    "wing_area": 11.58,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.7,
+    "speed": [
+      95.0,
+      110.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -0.76,
+      -2.01
+    ]
+  },
+  {
+    "name": "604 Kestrel",
+    "max ballast": 100.0,
+    "wing_area": 16.26,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.1,
+    "speed": [
+      112.97,
+      150.64,
+      207.13
+    ],
+    "sink_rate": [
+      -0.72,
+      -1.42,
+      -4.1
+    ]
+  },
+  {
+    "name": "AK-8",
+    "max ballast": 100.0,
+    "wing_area": 9.75,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 37.1,
+    "speed": [
+      84.1343,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.6524,
+      -0.9474,
+      -1.838
+    ]
+  },
+  {
+    "name": "Antares 18S",
+    "max ballast": 250.0,
+    "wing_area": 10.97,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.9,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.54,
+      -0.63,
+      -1.07
+    ]
+  },
+  {
+    "name": "Antares 18T",
+    "max ballast": 205.0,
+    "wing_area": 10.97,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.54,
+      -0.69,
+      -1.11
+    ]
+  },
+  {
+    "name": "Antares 20E",
+    "max ballast": 130.0,
+    "wing_area": 12.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 42.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.52,
+      -0.61,
+      -0.91
+    ]
+  },
+  {
+    "name": "Apis (13m)",
+    "max ballast": 45.0,
+    "wing_area": 10.36,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 19.3,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.74,
+      -1.01,
+      -1.66
+    ]
+  },
+  {
+    "name": "Apis 2 (15m)",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.0,
+    "speed": [
+      80.0,
+      100.0,
+      140.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.75,
+      -1.45
+    ]
+  },
+  {
+    "name": "Arcus",
+    "max ballast": 185.0,
+    "wing_area": 15.59,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 44.9,
+    "speed": [
+      110.0,
+      140.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.88,
+      -1.47
+    ]
+  },
+  {
+    "name": "ASG-29 (15m)",
+    "max ballast": 165.0,
+    "wing_area": 9.2,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 39.3,
+    "speed": [
+      108.8,
+      156.4,
+      211.13
+    ],
+    "sink_rate": [
+      -0.635,
+      -1.182,
+      -2.54
+    ]
+  },
+  {
+    "name": "ASG-29 (18m)",
+    "max ballast": 225.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.8,
+    "speed": [
+      85.0,
+      90.0,
+      185.0
+    ],
+    "sink_rate": [
+      -0.47,
+      -0.48,
+      -2.0
+    ]
+  },
+  {
+    "name": "ASG-29E (15m)",
+    "max ballast": 200.0,
+    "wing_area": 9.2,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 38.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.75,
+      -1.13
+    ]
+  },
+  {
+    "name": "ASG-29E (18m)",
+    "max ballast": 200.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 38.1,
+    "speed": [
+      90.0,
+      95.5,
+      196.4
+    ],
+    "sink_rate": [
+      -0.499,
+      -0.51,
+      -2.12
+    ]
+  },
+  {
+    "name": "ASH-25",
+    "max ballast": 121.0,
+    "wing_area": 16.31,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 46.0,
+    "speed": [
+      130.01,
+      169.96,
+      219.94
+    ],
+    "sink_rate": [
+      -0.78,
+      -1.4,
+      -2.6
+    ]
+  },
+  {
+    "name": "ASH-26",
+    "max ballast": 185.0,
+    "wing_area": 11.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.56,
+      -0.74,
+      -1.16
+    ]
+  },
+  {
+    "name": "ASH-26E",
+    "max ballast": 90.0,
+    "wing_area": 11.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 37.2,
+    "speed": [
+      90.0,
+      96.0,
+      185.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.53,
+      -2.0
+    ]
+  },
+  {
+    "name": "ASK-13",
+    "max ballast": 0.0,
+    "wing_area": 17.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.1,
+    "speed": [
+      85.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.84,
+      -1.5,
+      -2.8
+    ]
+  },
+  {
+    "name": "ASK-18",
+    "max ballast": 0.0,
+    "wing_area": 12.99,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 23.9,
+    "speed": [
+      75.0,
+      138.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.613,
+      -1.773,
+      -4.234
+    ]
+  },
+  {
+    "name": "ASK-21",
+    "max ballast": 0.0,
+    "wing_area": 17.95,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.1,
+    "speed": [
+      74.1,
+      101.9,
+      166.7
+    ],
+    "sink_rate": [
+      -0.67,
+      -0.9,
+      -2.68
+    ]
+  },
+  {
+    "name": "ASK-23",
+    "max ballast": 0.0,
+    "wing_area": 12.9,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.6,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.85,
+      -1.19,
+      -2.02
+    ]
+  },
+  {
+    "name": "ASW-12",
+    "max ballast": 189.0,
+    "wing_area": 13.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.3,
+    "speed": [
+      95.0,
+      148.0,
+      183.09
+    ],
+    "sink_rate": [
+      -0.57,
+      -1.48,
+      -2.6
+    ]
+  },
+  {
+    "name": "ASW-15",
+    "max ballast": 91.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.7,
+    "speed": [
+      97.56,
+      156.12,
+      195.15
+    ],
+    "sink_rate": [
+      -0.77,
+      -1.9,
+      -3.4
+    ]
+  },
+  {
+    "name": "ASW-17",
+    "max ballast": 151.0,
+    "wing_area": 14.84,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.2,
+    "speed": [
+      114.5,
+      169.05,
+      206.5
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.68,
+      -2.9
+    ]
+  },
+  {
+    "name": "ASW-19",
+    "max ballast": 125.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.0,
+    "speed": [
+      97.47,
+      155.96,
+      194.96
+    ],
+    "sink_rate": [
+      -0.74,
+      -1.64,
+      -3.1
+    ]
+  },
+  {
+    "name": "ASW-20",
+    "max ballast": 159.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.9,
+    "speed": [
+      116.2,
+      174.3,
+      213.04
+    ],
+    "sink_rate": [
+      -0.77,
+      -1.89,
+      -3.3
+    ]
+  },
+  {
+    "name": "ASW-20BL",
+    "max ballast": 126.0,
+    "wing_area": 10.49,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 38.1,
+    "speed": [
+      95.0,
+      148.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.628,
+      -1.338,
+      -2.774
+    ]
+  },
+  {
+    "name": "ASW-22B",
+    "max ballast": 303.0,
+    "wing_area": 16.31,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.6,
+    "speed": [
+      80.0,
+      120.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.4015,
+      -0.66,
+      -1.3539
+    ]
+  },
+  {
+    "name": "ASW-22BLE",
+    "max ballast": 285.0,
+    "wing_area": 16.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 27.8,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.47,
+      -0.63,
+      -1.04
+    ]
+  },
+  {
+    "name": "ASW-24",
+    "max ballast": 159.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.0,
+    "speed": [
+      108.82,
+      142.25,
+      167.41
+    ],
+    "sink_rate": [
+      -0.73,
+      -1.21,
+      -1.8
+    ]
+  },
+  {
+    "name": "ASW-27",
+    "max ballast": 165.0,
+    "wing_area": 9.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 40.6,
+    "speed": [
+      88.8335,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.5939,
+      -0.8511,
+      -1.6104
+    ]
+  },
+  {
+    "name": "ASW-28 (15m)",
+    "max ballast": 200.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.5,
+    "speed": [
+      92.6,
+      120.38,
+      148.16
+    ],
+    "sink_rate": [
+      -0.571,
+      -0.875,
+      -1.394
+    ]
+  },
+  {
+    "name": "ASW-28 (18m)",
+    "max ballast": 190.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 32.9,
+    "speed": [
+      65.0,
+      107.0,
+      165.0
+    ],
+    "sink_rate": [
+      -0.47,
+      -0.67,
+      -2.0
+    ]
+  },
+  {
+    "name": "Blanik L13",
+    "max ballast": 0.0,
+    "wing_area": 19.1,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 24.7,
+    "speed": [
+      85.0,
+      143.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.84,
+      -3.32,
+      -9.61
+    ]
+  },
+  {
+    "name": "Blanik L13-AC",
+    "max ballast": 0.0,
+    "wing_area": 17.44,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 28.7,
+    "speed": [
+      70.0,
+      110.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.85,
+      -1.25,
+      -3.2
+    ]
+  },
+  {
+    "name": "Blanik L23",
+    "max ballast": 0.0,
+    "wing_area": 19.1,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.7,
+    "speed": [
+      95.0,
+      148.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.94,
+      -2.6,
+      -6.37
+    ]
+  },
+  {
+    "name": "Carat",
+    "max ballast": 0.0,
+    "wing_area": 10.58,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 44.4,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.83,
+      -1.04,
+      -1.69
+    ]
+  },
+  {
+    "name": "Cirrus (18m)",
+    "max ballast": 100.0,
+    "wing_area": 12.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.2,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.74,
+      -1.06,
+      -1.88
+    ]
+  },
+  {
+    "name": "D-43 18m",
+    "max ballast": 0.0,
+    "wing_area": 15.93,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 41.9,
+    "speed": [
+      100.0,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -0.863,
+      -1.672
+    ]
+  },
+  {
+    "name": "DG-1000 (20m)",
+    "max ballast": 160.0,
+    "wing_area": 17.51,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.0,
+    "speed": [
+      106.0,
+      153.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.53,
+      -3.2
+    ]
+  },
+  {
+    "name": "DG-100",
+    "max ballast": 100.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 27.3,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.73,
+      -1.0,
+      -1.7
+    ]
+  },
+  {
+    "name": "DG-200",
+    "max ballast": 120.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -0.86,
+      -1.3
+    ]
+  },
+  {
+    "name": "DG-300",
+    "max ballast": 190.0,
+    "wing_area": 10.27,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.2,
+    "speed": [
+      95.0,
+      140.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -1.28,
+      -1.7
+    ]
+  },
+  {
+    "name": "DG-400 (15m)",
+    "max ballast": 90.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 44.0,
+    "speed": [
+      115.0,
+      160.53,
+      210.22
+    ],
+    "sink_rate": [
+      -0.76,
+      -1.22,
+      -2.3
+    ]
+  },
+  {
+    "name": "DG-400 (17m)",
+    "max ballast": 90.0,
+    "wing_area": 10.57,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 42.0,
+    "speed": [
+      118.28,
+      163.77,
+      198.35
+    ],
+    "sink_rate": [
+      -0.68,
+      -1.15,
+      -1.8
+    ]
+  },
+  {
+    "name": "DG-500 (20m)",
+    "max ballast": 100.0,
+    "wing_area": 18.29,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.0,
+    "speed": [
+      115.4,
+      152.01,
+      190.02
+    ],
+    "sink_rate": [
+      -0.71,
+      -1.28,
+      -2.3
+    ]
+  },
+  {
+    "name": "DG-600 (15m)",
+    "max ballast": 180.0,
+    "wing_area": 10.95,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.9,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.76,
+      -1.19
+    ]
+  },
+  {
+    "name": "DG-800B (15m)",
+    "max ballast": 100.0,
+    "wing_area": 10.68,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 43.8,
+    "speed": [
+      103.61,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.6535,
+      -0.8915,
+      -1.4807
+    ]
+  },
+  {
+    "name": "DG-800B (18m)",
+    "max ballast": 100.0,
+    "wing_area": 11.81,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 40.0,
+    "speed": [
+      90.0086,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.5496,
+      -0.792,
+      -1.4248
+    ]
+  },
+  {
+    "name": "DG-800S (15m)",
+    "max ballast": 150.0,
+    "wing_area": 10.68,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.6,
+    "speed": [
+      92.1255,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.5811,
+      -0.9754,
+      -1.6933
+    ]
+  },
+  {
+    "name": "DG-800S (18m)",
+    "max ballast": 150.0,
+    "wing_area": 11.81,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.6,
+    "speed": [
+      77.5081,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.4733,
+      -0.9257,
+      -1.7948
+    ]
+  },
+  {
+    "name": "Dimona",
+    "max ballast": 100.0,
+    "wing_area": 15.3,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 43.8,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -1.29,
+      -1.61,
+      -2.45
+    ]
+  },
+  {
+    "name": "Discus 2b",
+    "max ballast": 200.0,
+    "wing_area": 10.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.4,
+    "speed": [
+      105.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -1.05,
+      -2.0
+    ]
+  },
+  {
+    "name": "Discus 2c (18m)",
+    "max ballast": 188.0,
+    "wing_area": 11.36,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.2,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -0.76,
+      -1.33
+    ]
+  },
+  {
+    "name": "Discus",
+    "max ballast": 182.0,
+    "wing_area": 10.58,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.1,
+    "speed": [
+      95.0,
+      140.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -1.23,
+      -2.29
+    ]
+  },
+  {
+    "name": "Duo Discus",
+    "max ballast": 80.0,
+    "wing_area": 16.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 37.5,
+    "speed": [
+      103.0,
+      152.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.25,
+      -2.51
+    ]
+  },
+  {
+    "name": "Duo Discus T",
+    "max ballast": 80.0,
+    "wing_area": 16.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 37.5,
+    "speed": [
+      103.0,
+      152.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.25,
+      -2.51
+    ]
+  },
+  {
+    "name": "Duo Discus xT",
+    "max ballast": 50.0,
+    "wing_area": 16.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 42.7,
+    "speed": [
+      110.0,
+      155.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.664,
+      -1.206,
+      -2.287
+    ]
+  },
+  {
+    "name": "EB 28",
+    "max ballast": 180.0,
+    "wing_area": 16.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 39.9,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.46,
+      -0.61,
+      -0.96
+    ]
+  },
+  {
+    "name": "EB 28 Edition",
+    "max ballast": 180.0,
+    "wing_area": 16.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 40.6,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.47,
+      -0.63,
+      -0.97
+    ]
+  },
+  {
+    "name": "G 102 Astir CS",
+    "max ballast": 90.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.6,
+    "speed": [
+      75.0,
+      93.0,
+      185.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -0.74,
+      -3.1
+    ]
+  },
+  {
+    "name": "G 102 Club Astir IIIb",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.6,
+    "speed": [
+      75.0,
+      100.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.7,
+      -3.1
+    ]
+  },
+  {
+    "name": "G 102 Standard Astir III",
+    "max ballast": 70.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.6,
+    "speed": [
+      75.0,
+      100.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.7,
+      -2.8
+    ]
+  },
+  {
+    "name": "G 103 Twin 2",
+    "max ballast": 0.0,
+    "wing_area": 17.52,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.1,
+    "speed": [
+      99.0,
+      175.01,
+      225.02
+    ],
+    "sink_rate": [
+      -0.8,
+      -1.95,
+      -3.8
+    ]
+  },
+  {
+    "name": "G 104 Speed Astir",
+    "max ballast": 90.0,
+    "wing_area": 11.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.5,
+    "speed": [
+      90.0,
+      105.0,
+      157.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -0.72,
+      -2.0
+    ]
+  },
+  {
+    "name": "Genesis II",
+    "max ballast": 151.0,
+    "wing_area": 11.24,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.3,
+    "speed": [
+      94.0,
+      141.05,
+      172.4
+    ],
+    "sink_rate": [
+      -0.61,
+      -1.18,
+      -2.0
+    ]
+  },
+  {
+    "name": "Glasfluegel 304",
+    "max ballast": 145.0,
+    "wing_area": 9.9,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.8,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.78,
+      -0.97,
+      -1.43
+    ]
+  },
+  {
+    "name": "H-201 Std Libelle",
+    "max ballast": 50.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.0,
+    "speed": [
+      97.0,
+      152.43,
+      190.54
+    ],
+    "sink_rate": [
+      -0.79,
+      -1.91,
+      -3.3
+    ]
+  },
+  {
+    "name": "H-205 Club Libelle",
+    "max ballast": 0.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.85,
+      -1.21,
+      -2.01
+    ]
+  },
+  {
+    "name": "H-301 Libelle",
+    "max ballast": 50.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.6,
+    "speed": [
+      94.0,
+      147.71,
+      184.64
+    ],
+    "sink_rate": [
+      -0.68,
+      -2.03,
+      -4.1
+    ]
+  },
+  {
+    "name": "IS-28B2",
+    "max ballast": 0.0,
+    "wing_area": 18.24,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 32.3,
+    "speed": [
+      100.0,
+      160.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.82,
+      -2.28,
+      -4.27
+    ]
+  },
+  {
+    "name": "IS-29D2 Lark",
+    "max ballast": 0.0,
+    "wing_area": 10.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.6,
+    "speed": [
+      100.0,
+      135.67,
+      184.12
+    ],
+    "sink_rate": [
+      -0.82,
+      -1.55,
+      -3.3
+    ]
+  },
+  {
+    "name": "Janus (18m)",
+    "max ballast": 240.0,
+    "wing_area": 16.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.71,
+      -0.92,
+      -1.46
+    ]
+  },
+  {
+    "name": "Janus C FG",
+    "max ballast": 170.0,
+    "wing_area": 17.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.7,
+    "speed": [
+      115.5,
+      171.79,
+      209.96
+    ],
+    "sink_rate": [
+      -0.76,
+      -1.98,
+      -4.0
+    ]
+  },
+  {
+    "name": "Janus C RG",
+    "max ballast": 240.0,
+    "wing_area": 17.3,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.0,
+    "speed": [
+      90.0,
+      120.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.88,
+      -1.64
+    ]
+  },
+  {
+    "name": "JS-1B (18m)",
+    "max ballast": 180.0,
+    "wing_area": 11.25,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.0,
+    "speed": [
+      108.0,
+      152.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -1.06,
+      -1.65
+    ]
+  },
+  {
+    "name": "JS-1C (21m)",
+    "max ballast": 180.0,
+    "wing_area": 12.25,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.0,
+    "speed": [
+      108.0,
+      156.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.52,
+      -1.1,
+      -1.62
+    ]
+  },
+  {
+    "name": "JS-3 (15m)",
+    "max ballast": 158.0,
+    "wing_area": 8.75,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 40.0,
+    "speed": [
+      100.0,
+      130.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.8,
+      -1.2
+    ]
+  },
+  {
+    "name": "JS-3 (18m)",
+    "max ballast": 158.0,
+    "wing_area": 9.95,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 40.0,
+    "speed": [
+      100.0,
+      130.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.55,
+      -0.72,
+      -1.12
+    ]
+  },
+  {
+    "name": "Ka 2b",
+    "max ballast": 0.0,
+    "wing_area": 17.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 23.9,
+    "speed": [
+      87.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.9,
+      -1.5,
+      -2.6
+    ]
+  },
+  {
+    "name": "Ka 4 Rhoenlerche",
+    "max ballast": 0.0,
+    "wing_area": 16.34,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 22.0,
+    "speed": [
+      65.0,
+      120.0,
+      140.0
+    ],
+    "sink_rate": [
+      -0.95,
+      -2.5,
+      -3.5
+    ]
+  },
+  {
+    "name": "Ka 6CR",
+    "max ballast": 0.0,
+    "wing_area": 12.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 24.8,
+    "speed": [
+      64.83,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.67,
+      -2.26,
+      -4.69
+    ]
+  },
+  {
+    "name": "Ka 6E",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.0,
+    "speed": [
+      87.35,
+      141.92,
+      174.68
+    ],
+    "sink_rate": [
+      -0.81,
+      -2.03,
+      -3.5
+    ]
+  },
+  {
+    "name": "Ka 7",
+    "max ballast": 0.0,
+    "wing_area": 17.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.4,
+    "speed": [
+      87.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.92,
+      -1.55,
+      -2.7
+    ]
+  },
+  {
+    "name": "Ka 8",
+    "max ballast": 0.0,
+    "wing_area": 14.15,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 20.5,
+    "speed": [
+      74.1,
+      101.9,
+      166.7
+    ],
+    "sink_rate": [
+      -0.76,
+      -1.27,
+      -4.64
+    ]
+  },
+  {
+    "name": "L 33 Solo",
+    "max ballast": 0.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.0,
+    "speed": [
+      87.2,
+      135.64,
+      174.4
+    ],
+    "sink_rate": [
+      -0.8,
+      -1.73,
+      -3.4
+    ]
+  },
+  {
+    "name": "LAK-12",
+    "max ballast": 190.0,
+    "wing_area": 14.63,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.4,
+    "speed": [
+      75.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.48,
+      -0.88,
+      -1.97
+    ]
+  },
+  {
+    "name": "LAK-17 (15m)",
+    "max ballast": 215.0,
+    "wing_area": 9.06,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.5,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.72,
+      -1.09
+    ]
+  },
+  {
+    "name": "LAK-17 (18m)",
+    "max ballast": 205.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.56,
+      -0.74,
+      -1.16
+    ]
+  },
+  {
+    "name": "LAK17a (15m)",
+    "max ballast": 180.0,
+    "wing_area": 9.06,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.5,
+    "speed": [
+      95.0,
+      148.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.574,
+      -1.31,
+      -2.885
+    ]
+  },
+  {
+    "name": "LAK17a (18m)",
+    "max ballast": 180.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.4,
+    "speed": [
+      115.0,
+      158.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -1.379,
+      -2.975
+    ]
+  },
+  {
+    "name": "LAK-19 (15m)",
+    "max ballast": 195.0,
+    "wing_area": 9.06,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.5,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.85,
+      -1.41
+    ]
+  },
+  {
+    "name": "LAK-19 (18m)",
+    "max ballast": 185.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.82,
+      -1.34
+    ]
+  },
+  {
+    "name": "LS-10s (15m)",
+    "max ballast": 170.0,
+    "wing_area": 10.27,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.8,
+      -1.26
+    ]
+  },
+  {
+    "name": "LS-10s (18m)",
+    "max ballast": 220.0,
+    "wing_area": 11.45,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.2,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.58,
+      -0.75,
+      -1.21
+    ]
+  },
+  {
+    "name": "LS-1c",
+    "max ballast": 91.0,
+    "wing_area": 9.74,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.9,
+    "speed": [
+      115.87,
+      154.49,
+      193.12
+    ],
+    "sink_rate": [
+      -1.02,
+      -1.84,
+      -3.3
+    ]
+  },
+  {
+    "name": "LS-1f",
+    "max ballast": 80.0,
+    "wing_area": 9.74,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.4,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.75,
+      -0.98,
+      -1.6
+    ]
+  },
+  {
+    "name": "LS-3 (17m)",
+    "max ballast": 0.0,
+    "wing_area": 11.22,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.61,
+      -0.84,
+      -1.53
+    ]
+  },
+  {
+    "name": "LS-3",
+    "max ballast": 121.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.5,
+    "speed": [
+      93.0,
+      127.0,
+      148.2
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.93,
+      -1.28
+    ]
+  },
+  {
+    "name": "LS-4",
+    "max ballast": 121.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.4,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -0.87,
+      -1.44
+    ]
+  },
+  {
+    "name": "LS-5",
+    "max ballast": 120.0,
+    "wing_area": 13.9,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.2,
+    "speed": [
+      75.0,
+      135.0,
+      172.5
+    ],
+    "sink_rate": [
+      -0.45,
+      -1.0,
+      -1.9
+    ]
+  },
+  {
+    "name": "LS-6 (15m)",
+    "max ballast": 160.0,
+    "wing_area": 10.53,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.1,
+    "speed": [
+      90.0,
+      100.0,
+      183.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.658,
+      -1.965
+    ]
+  },
+  {
+    "name": "LS-6 (18m)",
+    "max ballast": 140.0,
+    "wing_area": 11.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 28.9,
+    "speed": [
+      90.0,
+      100.0,
+      183.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.57,
+      -2.0
+    ]
+  },
+  {
+    "name": "LS-7wl",
+    "max ballast": 150.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.7,
+    "speed": [
+      103.77,
+      155.65,
+      180.0
+    ],
+    "sink_rate": [
+      -0.73,
+      -1.47,
+      -2.66
+    ]
+  },
+  {
+    "name": "LS-8 (15m)",
+    "max ballast": 185.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.0,
+    "speed": [
+      70.0,
+      115.0,
+      173.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.85,
+      -2.0
+    ]
+  },
+  {
+    "name": "LS-8 (18m)",
+    "max ballast": 185.0,
+    "wing_area": 11.4,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 28.5,
+    "speed": [
+      80.0,
+      94.0,
+      173.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.56,
+      -2.0
+    ]
+  },
+  {
+    "name": "Mini Nimbus",
+    "max ballast": 155.0,
+    "wing_area": 9.86,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -0.92,
+      -1.45
+    ]
+  },
+  {
+    "name": "Nimbus 2",
+    "max ballast": 159.0,
+    "wing_area": 14.41,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.2,
+    "speed": [
+      119.83,
+      179.75,
+      219.69
+    ],
+    "sink_rate": [
+      -0.75,
+      -2.14,
+      -3.8
+    ]
+  },
+  {
+    "name": "Nimbus 3",
+    "max ballast": 159.0,
+    "wing_area": 16.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 31.6,
+    "speed": [
+      116.18,
+      174.28,
+      232.37
+    ],
+    "sink_rate": [
+      -0.67,
+      -1.81,
+      -3.8
+    ]
+  },
+  {
+    "name": "Nimbus 3DM",
+    "max ballast": 168.0,
+    "wing_area": 16.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 49.1,
+    "speed": [
+      114.97,
+      157.42,
+      222.24
+    ],
+    "sink_rate": [
+      -0.57,
+      -0.98,
+      -2.3
+    ]
+  },
+  {
+    "name": "Nimbus 3D",
+    "max ballast": 168.0,
+    "wing_area": 16.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 42.6,
+    "speed": [
+      93.64,
+      175.42,
+      218.69
+    ],
+    "sink_rate": [
+      -0.46,
+      -1.48,
+      -2.5
+    ]
+  },
+  {
+    "name": "Nimbus 3T",
+    "max ballast": 310.0,
+    "wing_area": 16.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.6,
+    "speed": [
+      141.7,
+      182.35,
+      243.13
+    ],
+    "sink_rate": [
+      -0.99,
+      -1.89,
+      -4.0
+    ]
+  },
+  {
+    "name": "Nimbus 4",
+    "max ballast": 303.0,
+    "wing_area": 17.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.5,
+    "speed": [
+      85.1,
+      127.98,
+      162.74
+    ],
+    "sink_rate": [
+      -0.41,
+      -0.75,
+      -1.4
+    ]
+  },
+  {
+    "name": "Nimbus 4DM",
+    "max ballast": 168.0,
+    "wing_area": 17.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 46.1,
+    "speed": [
+      100.01,
+      150.01,
+      190.76
+    ],
+    "sink_rate": [
+      -0.48,
+      -0.87,
+      -1.6
+    ]
+  },
+  {
+    "name": "Nimbus 4D",
+    "max ballast": 303.0,
+    "wing_area": 17.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 41.7,
+    "speed": [
+      107.5,
+      142.74,
+      181.51
+    ],
+    "sink_rate": [
+      -0.5,
+      -0.83,
+      -1.6
+    ]
+  },
+  {
+    "name": "Pegase 101A",
+    "max ballast": 120.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 32.8,
+    "speed": [
+      85.0,
+      105.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -0.75,
+      -2.54
+    ]
+  },
+  {
+    "name": "Phoebus C",
+    "max ballast": 150.0,
+    "wing_area": 14.06,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 22.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -0.98,
+      -1.58
+    ]
+  },
+  {
+    "name": "PIK-20B",
+    "max ballast": 144.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.4,
+    "speed": [
+      102.5,
+      157.76,
+      216.91
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.59,
+      -3.6
+    ]
+  },
+  {
+    "name": "PIK-20D",
+    "max ballast": 144.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.8,
+    "speed": [
+      100.0,
+      156.54,
+      215.24
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.78,
+      -4.2
+    ]
+  },
+  {
+    "name": "PIK-20E",
+    "max ballast": 80.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 43.7,
+    "speed": [
+      109.61,
+      166.68,
+      241.15
+    ],
+    "sink_rate": [
+      -0.83,
+      -2.0,
+      -4.7
+    ]
+  },
+  {
+    "name": "PIK-30M",
+    "max ballast": 0.0,
+    "wing_area": 10.63,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 43.3,
+    "speed": [
+      123.6,
+      152.04,
+      200.22
+    ],
+    "sink_rate": [
+      -0.78,
+      -1.12,
+      -2.2
+    ]
+  },
+  {
+    "name": "Pilatus B4 FG",
+    "max ballast": 0.0,
+    "wing_area": 14.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 21.9,
+    "speed": [
+      90.0,
+      126.0,
+      198.0
+    ],
+    "sink_rate": [
+      -0.847,
+      -1.644,
+      -5.098
+    ]
+  },
+  {
+    "name": "PW-5 Smyk",
+    "max ballast": 0.0,
+    "wing_area": 10.16,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 29.5,
+    "speed": [
+      99.5,
+      158.48,
+      198.1
+    ],
+    "sink_rate": [
+      -0.95,
+      -2.85,
+      -5.1
+    ]
+  },
+  {
+    "name": "PW-6",
+    "max ballast": 0.0,
+    "wing_area": 15.3,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.7,
+    "speed": [
+      104.0,
+      152.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.847,
+      -1.994,
+      -4.648
+    ]
+  },
+  {
+    "name": "R-26S Gobe",
+    "max ballast": 0.0,
+    "wing_area": 18.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 23.3,
+    "speed": [
+      60.0,
+      80.0,
+      120.0
+    ],
+    "sink_rate": [
+      -1.02,
+      -0.96,
+      -2.11
+    ]
+  },
+  {
+    "name": "Russia AC-4",
+    "max ballast": 0.0,
+    "wing_area": 7.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 32.5,
+    "speed": [
+      99.3,
+      140.01,
+      170.01
+    ],
+    "sink_rate": [
+      -0.92,
+      -1.8,
+      -2.9
+    ]
+  },
+  {
+    "name": "SF-27B",
+    "max ballast": 0.0,
+    "wing_area": 13.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 23.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.81,
+      -1.27,
+      -2.5
+    ]
+  },
+  {
+    "name": "SGS 1-26E",
+    "max ballast": 0.0,
+    "wing_area": 14.87,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 21.2,
+    "speed": [
+      82.3,
+      117.73,
+      156.86
+    ],
+    "sink_rate": [
+      -1.04,
+      -1.88,
+      -3.8
+    ]
+  },
+  {
+    "name": "SGS 1-34",
+    "max ballast": 0.0,
+    "wing_area": 14.03,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.2,
+    "speed": [
+      89.82,
+      143.71,
+      179.64
+    ],
+    "sink_rate": [
+      -0.8,
+      -2.1,
+      -3.8
+    ]
+  },
+  {
+    "name": "SGS 1-35A",
+    "max ballast": 179.0,
+    "wing_area": 9.64,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 39.5,
+    "speed": [
+      98.68,
+      151.82,
+      202.87
+    ],
+    "sink_rate": [
+      -0.74,
+      -1.8,
+      -3.9
+    ]
+  },
+  {
+    "name": "SGS 1-36 Sprite",
+    "max ballast": 0.0,
+    "wing_area": 13.1,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 24.6,
+    "speed": [
+      75.98,
+      132.96,
+      170.95
+    ],
+    "sink_rate": [
+      -0.68,
+      -2.0,
+      -4.1
+    ]
+  },
+  {
+    "name": "SGS 2-33",
+    "max ballast": 0.0,
+    "wing_area": 20.35,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 23.1,
+    "speed": [
+      82.32,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.96,
+      -1.74,
+      -3.44
+    ]
+  },
+  {
+    "name": "Silene E78",
+    "max ballast": 0.0,
+    "wing_area": 18.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.0,
+    "speed": [
+      75.0,
+      125.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.548,
+      -1.267,
+      -2.439
+    ]
+  },
+  {
+    "name": "Skylark 4",
+    "max ballast": 0.0,
+    "wing_area": 16.1,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 24.5,
+    "speed": [
+      78.0,
+      139.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.637,
+      -2.0,
+      -5.092
+    ]
+  },
+  {
+    "name": "Std Austria S",
+    "max ballast": 0.0,
+    "wing_area": 13.5,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 22.0,
+    "speed": [
+      70.0,
+      118.0,
+      145.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.0,
+      -1.5
+    ]
+  },
+  {
+    "name": "Std Cirrus",
+    "max ballast": 80.0,
+    "wing_area": 10.04,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.6,
+    "speed": [
+      93.23,
+      149.17,
+      205.1
+    ],
+    "sink_rate": [
+      -0.74,
+      -1.71,
+      -4.2
+    ]
+  },
+  {
+    "name": "Stemme S-10",
+    "max ballast": 0.0,
+    "wing_area": 18.7,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 45.5,
+    "speed": [
+      133.47,
+      167.75,
+      205.03
+    ],
+    "sink_rate": [
+      -0.83,
+      -1.41,
+      -2.3
+    ]
+  },
+  {
+    "name": "SZD-30 Pirat",
+    "max ballast": 0.0,
+    "wing_area": 13.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.8,
+    "speed": [
+      80.0,
+      100.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.72,
+      -0.98,
+      -2.46
+    ]
+  },
+  {
+    "name": "SZD-36 Cobra",
+    "max ballast": 30.0,
+    "wing_area": 11.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.2,
+    "speed": [
+      70.8,
+      94.5,
+      148.1
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.69,
+      -1.83
+    ]
+  },
+  {
+    "name": "SZD-42 Jantar II",
+    "max ballast": 191.0,
+    "wing_area": 14.27,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 33.8,
+    "speed": [
+      109.5,
+      157.14,
+      196.42
+    ],
+    "sink_rate": [
+      -0.66,
+      -1.47,
+      -2.7
+    ]
+  },
+  {
+    "name": "SZD-48-2 Jantar Std 2",
+    "max ballast": 150.0,
+    "wing_area": 10.66,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.2,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.73,
+      -0.95,
+      -1.6
+    ]
+  },
+  {
+    "name": "SZD-48-3 Jantar Std 3",
+    "max ballast": 150.0,
+    "wing_area": 10.66,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 30.6,
+    "speed": [
+      95.0,
+      180.0,
+      220.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -2.24,
+      -3.85
+    ]
+  },
+  {
+    "name": "SZD-50 Puchacz",
+    "max ballast": 135.0,
+    "wing_area": 18.16,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 24.0,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -1.0,
+      -1.42,
+      -2.35
+    ]
+  },
+  {
+    "name": "SZD-51-1 Junior",
+    "max ballast": 0.0,
+    "wing_area": 12.51,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.6,
+    "speed": [
+      70.0,
+      130.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.58,
+      -1.6,
+      -3.6
+    ]
+  },
+  {
+    "name": "SZD-54-2 Perkoz (FT 17m)",
+    "max ballast": 0.0,
+    "wing_area": 16.36,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 27.0,
+    "speed": [
+      98.0,
+      174.0,
+      250.0
+    ],
+    "sink_rate": [
+      -0.92,
+      -4.35,
+      -13.22
+    ]
+  },
+  {
+    "name": "SZD-54-2 Perkoz (WL 17m)",
+    "max ballast": 0.0,
+    "wing_area": 16.36,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 27.0,
+    "speed": [
+      99.0,
+      175.0,
+      250.0
+    ],
+    "sink_rate": [
+      -0.86,
+      -4.22,
+      -13.01
+    ]
+  },
+  {
+    "name": "SZD-54-2 Perkoz (WL 20m)",
+    "max ballast": 0.0,
+    "wing_area": 17.3,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 25.5,
+    "speed": [
+      91.0,
+      170.0,
+      250.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -3.98,
+      -12.66
+    ]
+  },
+  {
+    "name": "SZD-55-1 Promyk",
+    "max ballast": 200.0,
+    "wing_area": 9.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 36.5,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -0.86,
+      -1.4
+    ]
+  },
+  {
+    "name": "SZD-9 bis 1E Bocian",
+    "max ballast": 0.0,
+    "wing_area": 20.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 27.0,
+    "speed": [
+      70.0,
+      90.0,
+      140.0
+    ],
+    "sink_rate": [
+      -0.83,
+      -1.0,
+      -2.53
+    ]
+  },
+  {
+    "name": "Taurus",
+    "max ballast": 0.0,
+    "wing_area": 12.26,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 38.5,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.71,
+      -0.83,
+      -1.35
+    ]
+  },
+  {
+    "name": "Ventus 2c (18m)",
+    "max ballast": 180.0,
+    "wing_area": 11.03,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.9,
+    "speed": [
+      80.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -0.73,
+      -2.0
+    ]
+  },
+  {
+    "name": "Ventus 2cT (18m)",
+    "max ballast": 110.0,
+    "wing_area": 11.03,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 37.2,
+    "speed": [
+      100.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.2,
+      -2.3
+    ]
+  },
+  {
+    "name": "Ventus 2cx (18m)",
+    "max ballast": 215.0,
+    "wing_area": 11.03,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 34.9,
+    "speed": [
+      80.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -0.73,
+      -2.0
+    ]
+  },
+  {
+    "name": "Ventus 2cxT (18m)",
+    "max ballast": 130.0,
+    "wing_area": 11.03,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 42.6,
+    "speed": [
+      100.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.56,
+      -1.13,
+      -2.28
+    ]
+  },
+  {
+    "name": "Ventus a/b (16.6m)",
+    "max ballast": 151.0,
+    "wing_area": 9.96,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.9,
+    "speed": [
+      100.17,
+      159.69,
+      239.54
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.47,
+      -4.3
+    ]
+  },
+  {
+    "name": "Ventus b (15m)",
+    "max ballast": 151.0,
+    "wing_area": 9.51,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.9,
+    "speed": [
+      97.69,
+      156.3,
+      234.45
+    ],
+    "sink_rate": [
+      -0.68,
+      -1.46,
+      -3.9
+    ]
+  },
+  {
+    "name": "Ventus cM (17.6)",
+    "max ballast": 0.0,
+    "wing_area": 10.14,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 42.4,
+    "speed": [
+      100.17,
+      159.7,
+      210.54
+    ],
+    "sink_rate": [
+      -0.6,
+      -1.32,
+      -2.5
+    ]
+  },
+  {
+    "name": "VSO-10 Gradient",
+    "max ballast": 0.0,
+    "wing_area": 12.0,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 28.9,
+    "speed": [
+      90.0,
+      130.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.78,
+      -1.41,
+      -2.44
+    ]
+  },
+  {
+    "name": "VT-116 Orlik II",
+    "max ballast": 0.0,
+    "wing_area": 12.8,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.2,
+    "speed": [
+      80.0,
+      100.0,
+      120.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.05,
+      -1.65
+    ]
+  },
+  {
+    "name": "WA 26 P Squale",
+    "max ballast": 0.0,
+    "wing_area": 12.6,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 26.2,
+    "speed": [
+      80.0,
+      152.0,
+      174.0
+    ],
+    "sink_rate": [
+      -0.61,
+      -2.0,
+      -3.0
+    ]
+  },
+  {
+    "name": "Zuni II",
+    "max ballast": 182.0,
+    "wing_area": 10.13,
+    "method": "3-points",
+    "source": "XCSoar",
+    "wing_loading": 35.3,
+    "speed": [
+      110.0,
+      167.0,
+      203.72
+    ],
+    "sink_rate": [
+      -0.88,
+      -2.21,
+      -3.6
+    ]
+  },
+  {
+    "name": "Antares 20E",
+    "max ballast": 216.0,
+    "wing_area": 12.6,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 42.86,
+    "speed": [
+      100.0,
+      140.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.53,
+      -0.76,
+      -1.79
+    ]
+  },
+  {
+    "name": "Apis 2",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 25.8,
+    "speed": [
+      80.0,
+      100.0,
+      142.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.75,
+      -1.5
+    ]
+  },
+  {
+    "name": "Arcus",
+    "max ballast": 185.0,
+    "wing_area": 15.59,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 44.9,
+    "speed": [
+      110.0,
+      140.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.88,
+      -1.47
+    ]
+  },
+  {
+    "name": "ASK 21",
+    "max ballast": 0.0,
+    "wing_area": 17.95,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.3,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.76,
+      -1.21,
+      -2.75
+    ]
+  },
+  {
+    "name": "ASK 23",
+    "max ballast": 0.0,
+    "wing_area": 12.9,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 26.3,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.32,
+      -2.93
+    ]
+  },
+  {
+    "name": "ASK 13",
+    "max ballast": 0.0,
+    "wing_area": 17.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 21.71,
+    "speed": [
+      70.0,
+      100.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.8,
+      -1.2,
+      -2.8
+    ]
+  },
+  {
+    "name": "ASH 25",
+    "max ballast": 120.0,
+    "wing_area": 16.31,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 41.5,
+    "speed": [
+      100.0,
+      140.0,
+      185.0
+    ],
+    "sink_rate": [
+      -0.541,
+      -0.962,
+      -1.786
+    ]
+  },
+  {
+    "name": "ASH 25e",
+    "max ballast": 120.0,
+    "wing_area": 16.31,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 43.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -0.72,
+      -1.49
+    ]
+  },
+  {
+    "name": "ASH 31Mi-18",
+    "max ballast": 120.0,
+    "wing_area": 11.83,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 42.3,
+    "speed": [
+      90.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.45,
+      -0.97,
+      -2.02
+    ]
+  },
+  {
+    "name": "ASH 31Mi-21",
+    "max ballast": 140.0,
+    "wing_area": 13.16,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 38.8,
+    "speed": [
+      90.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.55,
+      -0.99,
+      -2.32
+    ]
+  },
+  {
+    "name": "ASW 15B",
+    "max ballast": 90.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 27.7,
+    "speed": [
+      80.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -1.16,
+      -2.0
+    ]
+  },
+  {
+    "name": "ASW 17",
+    "max ballast": 100.0,
+    "wing_area": 14.84,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.55,
+      -0.82,
+      -1.78
+    ]
+  },
+  {
+    "name": "ASW 19",
+    "max ballast": 100.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -1.09,
+      -2.44
+    ]
+  },
+  {
+    "name": "ASW 20",
+    "max ballast": 120.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -0.92,
+      -1.83
+    ]
+  },
+  {
+    "name": "ASW 20A",
+    "max ballast": 120.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.9,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.05,
+      -2.25
+    ]
+  },
+  {
+    "name": "ASW 20C",
+    "max ballast": 120.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.25,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.61,
+      -0.94,
+      -1.88
+    ]
+  },
+  {
+    "name": "ASW 20L",
+    "max ballast": 120.0,
+    "wing_area": 11.05,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.3,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -0.93,
+      -2.01
+    ]
+  },
+  {
+    "name": "ASW 22-24",
+    "max ballast": 240.0,
+    "wing_area": 14.9,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.8,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.43,
+      -0.85,
+      -1.77
+    ]
+  },
+  {
+    "name": "ASW 22M",
+    "max ballast": 185.0,
+    "wing_area": 16.31,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 40.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.75,
+      -1.6
+    ]
+  },
+  {
+    "name": "ASW 24",
+    "max ballast": 155.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.0,
+    "speed": [
+      108.82,
+      142.25,
+      167.4
+    ],
+    "sink_rate": [
+      -0.728,
+      -1.213,
+      -1.766
+    ]
+  },
+  {
+    "name": "ASW 24WL",
+    "max ballast": 155.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.7,
+    "speed": [
+      108.8,
+      156.4,
+      211.0
+    ],
+    "sink_rate": [
+      -0.635,
+      -1.182,
+      -2.54
+    ]
+  },
+  {
+    "name": "ASW 27",
+    "max ballast": 165.0,
+    "wing_area": 9.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 40.55,
+    "speed": [
+      88.8335,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.5939,
+      -0.8511,
+      -1.6104
+    ]
+  },
+  {
+    "name": "ASW 28",
+    "max ballast": 190.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.42,
+    "speed": [
+      90.0,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -1.05,
+      -2.15
+    ]
+  },
+  {
+    "name": "B4 P-11",
+    "max ballast": 0.0,
+    "wing_area": 14.05,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 24.9,
+    "speed": [
+      80.0,
+      110.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.65,
+      -1.66,
+      -2.38
+    ]
+  },
+  {
+    "name": "Blanik L13",
+    "max ballast": 0.0,
+    "wing_area": 19.15,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 25.8,
+    "speed": [
+      80.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -2.45,
+      -5.0
+    ]
+  },
+  {
+    "name": "Calif A21S",
+    "max ballast": 0.0,
+    "wing_area": 23.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 39.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -0.93,
+      -1.82
+    ]
+  },
+  {
+    "name": "Carat A",
+    "max ballast": 0.0,
+    "wing_area": 10.58,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 44.42,
+    "speed": [
+      105.0,
+      160.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.75,
+      -2.0,
+      -3.9
+    ]
+  },
+  {
+    "name": "Cirrus Std",
+    "max ballast": 60.0,
+    "wing_area": 10.04,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.18,
+      -2.59
+    ]
+  },
+  {
+    "name": "Cirrus 17.7m",
+    "max ballast": 98.0,
+    "wing_area": 12.6,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 28.5,
+    "speed": [
+      75.0,
+      120.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -1.0,
+      -1.83
+    ]
+  },
+  {
+    "name": "DG 100",
+    "max ballast": 100.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.16,
+      -2.68
+    ]
+  },
+  {
+    "name": "DG 100G",
+    "max ballast": 100.0,
+    "wing_area": 11.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.48,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.13,
+      -2.5
+    ]
+  },
+  {
+    "name": "DG 200",
+    "max ballast": 120.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.65,
+      -0.97,
+      -2.05
+    ]
+  },
+  {
+    "name": "DG 300",
+    "max ballast": 130.0,
+    "wing_area": 10.28,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -1.02,
+      -2.48
+    ]
+  },
+  {
+    "name": "DG 400-17",
+    "max ballast": 90.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 38.4,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.55,
+      -1.01,
+      -2.12
+    ]
+  },
+  {
+    "name": "DG 500M-22",
+    "max ballast": 100.0,
+    "wing_area": 18.29,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 40.0,
+    "speed": [
+      80.0,
+      142.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -1.0,
+      -1.75
+    ]
+  },
+  {
+    "name": "DG 600-15",
+    "max ballast": 187.0,
+    "wing_area": 10.95,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.3,
+    "speed": [
+      85.0,
+      130.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -1.0,
+      -1.86
+    ]
+  },
+  {
+    "name": "DG 600-18",
+    "max ballast": 187.0,
+    "wing_area": 11.81,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.0,
+    "speed": [
+      80.0,
+      136.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -1.0,
+      -1.8
+    ]
+  },
+  {
+    "name": "DG 800B-15",
+    "max ballast": 100.0,
+    "wing_area": 10.68,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 38.76,
+    "speed": [
+      97.4494,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.6146,
+      -0.9312,
+      -1.5857
+    ]
+  },
+  {
+    "name": "DG 800S-15",
+    "max ballast": 150.0,
+    "wing_area": 10.68,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.93,
+    "speed": [
+      92.4983,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.5834,
+      -0.972,
+      -1.6852
+    ]
+  },
+  {
+    "name": "DG 800B-18",
+    "max ballast": 100.0,
+    "wing_area": 11.81,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.39,
+    "speed": [
+      84.7035,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.5172,
+      -0.8367,
+      -1.5613
+    ]
+  },
+  {
+    "name": "DG 800S-18",
+    "max ballast": 150.0,
+    "wing_area": 11.81,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 29.97,
+    "speed": [
+      77.9497,
+      130.0,
+      170.0
+    ],
+    "sink_rate": [
+      -0.476,
+      -0.9192,
+      -1.7786
+    ]
+  },
+  {
+    "name": "DG 1000S-20",
+    "max ballast": 160.0,
+    "wing_area": 17.53,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 28.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.93,
+      -2.8
+    ]
+  },
+  {
+    "name": "Diamant 18",
+    "max ballast": 50.0,
+    "wing_area": 14.28,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 28.0,
+    "speed": [
+      72.0,
+      125.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.52,
+      -0.95,
+      -1.75
+    ]
+  },
+  {
+    "name": "Diana2",
+    "max ballast": 240.0,
+    "wing_area": 8.64,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.1,
+    "speed": [
+      75.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.48,
+      -0.82,
+      -2.22
+    ]
+  },
+  {
+    "name": "Discus A",
+    "max ballast": 200.0,
+    "wing_area": 10.58,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 29.67,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.56,
+      -1.0,
+      -2.55
+    ]
+  },
+  {
+    "name": "Discus 2B",
+    "max ballast": 200.0,
+    "wing_area": 10.16,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 51.7,
+    "speed": [
+      100.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.75,
+      -0.8,
+      -1.5
+    ]
+  },
+  {
+    "name": "Discus 2C 18m",
+    "max ballast": 200.0,
+    "wing_area": 11.36,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.19,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -0.76,
+      -1.33
+    ]
+  },
+  {
+    "name": "DUO Discus",
+    "max ballast": 198.0,
+    "wing_area": 16.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.5,
+    "speed": [
+      80.0,
+      130.0,
+      177.0
+    ],
+    "sink_rate": [
+      -0.52,
+      -1.0,
+      -2.5
+    ]
+  },
+  {
+    "name": "Elfe S4D",
+    "max ballast": 0.0,
+    "wing_area": 11.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 27.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.23,
+      -2.76
+    ]
+  },
+  {
+    "name": "Genesis II",
+    "max ballast": 0.0,
+    "wing_area": 11.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.54,
+    "speed": [
+      94.0,
+      141.05,
+      172.4
+    ],
+    "sink_rate": [
+      -0.608,
+      -1.178,
+      -1.96
+    ]
+  },
+  {
+    "name": "G-102 CS",
+    "max ballast": 100.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.61,
+      -1.07,
+      -2.45
+    ]
+  },
+  {
+    "name": "G-102 CS Top",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.75,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.18,
+      -2.55
+    ]
+  },
+  {
+    "name": "G-102 Club",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 29.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.18,
+      -2.55
+    ]
+  },
+  {
+    "name": "G-102 3B",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 27.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -1.34,
+      -2.84
+    ]
+  },
+  {
+    "name": "G-102 Twin",
+    "max ballast": 0.0,
+    "wing_area": 17.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.4,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.78,
+      -1.07,
+      -2.17
+    ]
+  },
+  {
+    "name": "G-103 Twin",
+    "max ballast": 0.0,
+    "wing_area": 17.52,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 27.6,
+    "speed": [
+      80.0,
+      120.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.75,
+      -1.0,
+      -3.4
+    ]
+  },
+  {
+    "name": "H-304-17",
+    "max ballast": 115.0,
+    "wing_area": 10.68,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.53,
+      -0.93,
+      -1.93
+    ]
+  },
+  {
+    "name": "H-304",
+    "max ballast": 115.0,
+    "wing_area": 9.88,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.8,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.96,
+      -2.04
+    ]
+  },
+  {
+    "name": "Hornet C",
+    "max ballast": 100.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.3,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -1.12,
+      -2.55
+    ]
+  },
+  {
+    "name": "Hornet H-206",
+    "max ballast": 100.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.05,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.12,
+      -2.49
+    ]
+  },
+  {
+    "name": "Jantar 2B",
+    "max ballast": 167.0,
+    "wing_area": 14.3,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.51,
+      -0.87,
+      -2.02
+    ]
+  },
+  {
+    "name": "Jantar Std",
+    "max ballast": 100.0,
+    "wing_area": 14.24,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -1.07,
+      -2.25
+    ]
+  },
+  {
+    "name": "Jantar Std 3",
+    "max ballast": 150.0,
+    "wing_area": 10.66,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.58,
+    "speed": [
+      95.0,
+      180.0,
+      220.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -2.25,
+      -3.85
+    ]
+  },
+  {
+    "name": "Jantar SZD 38A",
+    "max ballast": 100.0,
+    "wing_area": 13.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 27.7,
+    "speed": [
+      91.0,
+      140.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.53,
+      -1.27,
+      -2.26
+    ]
+  },
+  {
+    "name": "Jantar SZD 41A",
+    "max ballast": 0.0,
+    "wing_area": 10.66,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.9,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.1,
+      -2.41
+    ]
+  },
+  {
+    "name": "Janus",
+    "max ballast": 240.0,
+    "wing_area": 16.6,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.1,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.04,
+      -2.08
+    ]
+  },
+  {
+    "name": "Janus CM",
+    "max ballast": 0.0,
+    "wing_area": 17.3,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 39.0,
+    "speed": [
+      90.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -0.78,
+      -1.8
+    ]
+  },
+  {
+    "name": "Jeans Astir ",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 29.68,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.73,
+      -1.27,
+      -2.78
+    ]
+  },
+  {
+    "name": "JS1 18m",
+    "max ballast": 190.0,
+    "wing_area": 11.19,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.0,
+    "speed": [
+      110.0,
+      160.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.55,
+      -1.2,
+      -2.2
+    ]
+  },
+  {
+    "name": "JS1 21m",
+    "max ballast": 214.0,
+    "wing_area": 12.25,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.0,
+    "speed": [
+      110.0,
+      160.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -1.18,
+      -2.2
+    ]
+  },
+  {
+    "name": "Ka 6b R-S ",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 22.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.76,
+      -1.75,
+      -4.3
+    ]
+  },
+  {
+    "name": "Ka 6 CR",
+    "max ballast": 0.0,
+    "wing_area": 12.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 24.19,
+    "speed": [
+      80.0,
+      125.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.68,
+      -2.7
+    ]
+  },
+  {
+    "name": "Ka 7",
+    "max ballast": 0.0,
+    "wing_area": 17.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 26.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.94,
+      -1.8,
+      -4.55
+    ]
+  },
+  {
+    "name": "Ka 8",
+    "max ballast": 0.0,
+    "wing_area": 14.15,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 21.02,
+    "speed": [
+      60.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.65,
+      -2.1,
+      -3.8
+    ]
+  },
+  {
+    "name": "Kestrel 17",
+    "max ballast": 50.0,
+    "wing_area": 11.58,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.7,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.59,
+      -0.98,
+      -2.01
+    ]
+  },
+  {
+    "name": "Kestrel 19",
+    "max ballast": 100.0,
+    "wing_area": 12.87,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.4,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.57,
+      -0.93,
+      -2.03
+    ]
+  },
+  {
+    "name": "Kestrel 22",
+    "max ballast": 100.0,
+    "wing_area": 16.26,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.8,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.53,
+      -0.81,
+      -1.74
+    ]
+  },
+  {
+    "name": "Standard Libelle",
+    "max ballast": 50.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.7,
+    "speed": [
+      80.0,
+      120.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -1.1,
+      -2.6
+    ]
+  },
+  {
+    "name": "Club Libelle 205",
+    "max ballast": 0.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.7,
+    "speed": [
+      80.0,
+      124.0,
+      176.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -1.2,
+      -2.77
+    ]
+  },
+  {
+    "name": "LAK-12 (20.4m)",
+    "max ballast": 190.0,
+    "wing_area": 14.63,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 29.4,
+    "speed": [
+      75.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.48,
+      -0.8,
+      -1.92
+    ]
+  },
+  {
+    "name": "LAK-17 (15m)",
+    "max ballast": 215.0,
+    "wing_area": 9.06,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.45,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.72,
+      -1.09
+    ]
+  },
+  {
+    "name": "LAK-17a (15m)",
+    "max ballast": 180.0,
+    "wing_area": 9.06,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.45,
+    "speed": [
+      95.0,
+      148.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.574,
+      -1.31,
+      -2.885
+    ]
+  },
+  {
+    "name": "LAK-17 (18m)",
+    "max ballast": 205.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.1,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.56,
+      -0.74,
+      -1.16
+    ]
+  },
+  {
+    "name": "LAK-17a (18m)",
+    "max ballast": 180.0,
+    "wing_area": 9.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.73,
+    "speed": [
+      85.0,
+      140.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -1.0,
+      -1.82
+    ]
+  },
+  {
+    "name": "Lambada (15m)",
+    "max ballast": 0.0,
+    "wing_area": 12.9,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.88,
+    "speed": [
+      80.0,
+      140.0,
+      200.0
+    ],
+    "sink_rate": [
+      -1.0,
+      -2.4,
+      -4.8
+    ]
+  },
+  {
+    "name": "LS 3a",
+    "max ballast": 150.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -0.96,
+      -2.9
+    ]
+  },
+  {
+    "name": "LS 1 f",
+    "max ballast": 0.0,
+    "wing_area": 9.74,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.07,
+      -2.34
+    ]
+  },
+  {
+    "name": "LS 3 15m",
+    "max ballast": 150.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -0.92,
+      -1.87
+    ]
+  },
+  {
+    "name": "LS 3 17m",
+    "max ballast": 0.0,
+    "wing_area": 11.22,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.56,
+      -0.94,
+      -2.44
+    ]
+  },
+  {
+    "name": "LS 3 WL",
+    "max ballast": 150.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 37.7,
+    "speed": [
+      80.0,
+      130.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.92,
+      -1.75
+    ]
+  },
+  {
+    "name": "LS 4",
+    "max ballast": 160.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.4,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -0.97,
+      -2.24
+    ]
+  },
+  {
+    "name": "LS 6a",
+    "max ballast": 140.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.3,
+    "speed": [
+      100.0,
+      155.0,
+      212.0
+    ],
+    "sink_rate": [
+      -0.67,
+      -1.48,
+      -3.0
+    ]
+  },
+  {
+    "name": "LS 6 18w",
+    "max ballast": 140.0,
+    "wing_area": 11.42,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 39.0,
+    "speed": [
+      100.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -0.91,
+      -2.25
+    ]
+  },
+  {
+    "name": "LS 6 neo",
+    "max ballast": 140.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.38,
+    "speed": [
+      100.0,
+      130.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.648,
+      -0.931,
+      -1.445
+    ]
+  },
+  {
+    "name": "LS 7 WL",
+    "max ballast": 150.0,
+    "wing_area": 9.73,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.97,
+    "speed": [
+      103.77,
+      155.65,
+      180.0
+    ],
+    "sink_rate": [
+      -0.73,
+      -1.47,
+      -2.66
+    ]
+  },
+  {
+    "name": "LS 8",
+    "max ballast": 175.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.28,
+    "speed": [
+      100.0,
+      155.0,
+      185.0
+    ],
+    "sink_rate": [
+      -0.67,
+      -1.45,
+      -2.5
+    ]
+  },
+  {
+    "name": "LS 8 neo",
+    "max ballast": 190.0,
+    "wing_area": 10.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.9,
+    "speed": [
+      100.0,
+      130.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.673,
+      -0.899,
+      -1.479
+    ]
+  },
+  {
+    "name": "LS 9",
+    "max ballast": 140.0,
+    "wing_area": 11.42,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 45.0,
+    "speed": [
+      100.0,
+      150.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -0.86,
+      -1.75
+    ]
+  },
+  {
+    "name": "L-Spatz 55",
+    "max ballast": 0.0,
+    "wing_area": 11.7,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 22.22,
+    "speed": [
+      80.0,
+      100.0,
+      125.0
+    ],
+    "sink_rate": [
+      -0.8,
+      -1.25,
+      -2.3
+    ]
+  },
+  {
+    "name": "Marianne",
+    "max ballast": 0.0,
+    "wing_area": 17.185,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 37.82,
+    "speed": [
+      80.0,
+      140.0,
+      200.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -1.5,
+      -3.6
+    ]
+  },
+  {
+    "name": "MG-23",
+    "max ballast": 0.0,
+    "wing_area": 14.21,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 25.3,
+    "speed": [
+      78.0,
+      110.0,
+      140.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.4,
+      -2.15
+    ]
+  },
+  {
+    "name": "Mini Nimbus",
+    "max ballast": 125.0,
+    "wing_area": 9.86,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -0.96,
+      -2.13
+    ]
+  },
+  {
+    "name": "MiniLak FES",
+    "max ballast": 80.0,
+    "wing_area": 8.41,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 40.8,
+    "speed": [
+      90.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.69,
+      -0.87,
+      -2.06
+    ]
+  },
+  {
+    "name": "Mistral C",
+    "max ballast": 0.0,
+    "wing_area": 10.9,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.36,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.67,
+      -1.15,
+      -2.64
+    ]
+  },
+  {
+    "name": "Mosquito",
+    "max ballast": 115.0,
+    "wing_area": 9.86,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -0.92,
+      -1.99
+    ]
+  },
+  {
+    "name": "Mosquito B",
+    "max ballast": 115.0,
+    "wing_area": 9.86,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -0.93,
+      -2.04
+    ]
+  },
+  {
+    "name": "Nimbus 2",
+    "max ballast": 160.0,
+    "wing_area": 14.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -0.88,
+      -2.0
+    ]
+  },
+  {
+    "name": "Nimbus 3",
+    "max ballast": 338.0,
+    "wing_area": 16.28,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 29.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.46,
+      -0.88,
+      -1.85
+    ]
+  },
+  {
+    "name": "Nimbus 3DM",
+    "max ballast": 168.0,
+    "wing_area": 17.02,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 48.17,
+    "speed": [
+      95.0,
+      130.0,
+      187.0
+    ],
+    "sink_rate": [
+      -0.5,
+      -0.7,
+      -1.6
+    ]
+  },
+  {
+    "name": "Nimbus 3-24.5",
+    "max ballast": 338.0,
+    "wing_area": 16.7,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 28.9,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.39,
+      -0.86,
+      -1.87
+    ]
+  },
+  {
+    "name": "Nimbus 4-26.5",
+    "max ballast": 300.0,
+    "wing_area": 17.86,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.42,
+    "speed": [
+      85.1,
+      127.98,
+      162.74
+    ],
+    "sink_rate": [
+      -0.41,
+      -0.75,
+      -1.4
+    ]
+  },
+  {
+    "name": "Phoebus B",
+    "max ballast": 80.0,
+    "wing_area": 13.16,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 24.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -1.1,
+      -2.4
+    ]
+  },
+  {
+    "name": "Piccolo B",
+    "max ballast": 0.0,
+    "wing_area": 10.6,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 26.89,
+    "speed": [
+      68.0,
+      78.0,
+      111.0
+    ],
+    "sink_rate": [
+      -0.9,
+      -1.0,
+      -2.0
+    ]
+  },
+  {
+    "name": "Pegase 101A",
+    "max ballast": 100.0,
+    "wing_area": 12.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.8,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.63,
+      -1.08,
+      -2.54
+    ]
+  },
+  {
+    "name": "Pik 20B",
+    "max ballast": 140.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.4,
+    "speed": [
+      102.5,
+      157.76,
+      216.91
+    ],
+    "sink_rate": [
+      -0.69,
+      -1.59,
+      -3.6
+    ]
+  },
+  {
+    "name": "Pik 20E",
+    "max ballast": 120.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 43.7,
+    "speed": [
+      109.61,
+      166.68,
+      241.15
+    ],
+    "sink_rate": [
+      -0.83,
+      -2.0,
+      -4.7
+    ]
+  },
+  {
+    "name": "Pik 20D",
+    "max ballast": 140.0,
+    "wing_area": 10.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.66,
+      -1.06,
+      -2.2
+    ]
+  },
+  {
+    "name": "Salto 13,6m",
+    "max ballast": 0.0,
+    "wing_area": 8.58,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.6,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.72,
+      -1.32,
+      -2.96
+    ]
+  },
+  {
+    "name": "Salto 15m",
+    "max ballast": 0.0,
+    "wing_area": 9.14,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 31.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.24,
+      -2.75
+    ]
+  },
+  {
+    "name": "Salto 15,5m",
+    "max ballast": 0.0,
+    "wing_area": 9.14,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 34.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.21,
+      -2.73
+    ]
+  },
+  {
+    "name": "SB-10",
+    "max ballast": 100.0,
+    "wing_area": 22.95,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.7,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.48,
+      -0.82,
+      -1.74
+    ]
+  },
+  {
+    "name": "SB-11",
+    "max ballast": 105.0,
+    "wing_area": 10.56,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.9,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.68,
+      -0.91,
+      -1.84
+    ]
+  },
+  {
+    "name": "SB-12",
+    "max ballast": 150.0,
+    "wing_area": 10.02,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.2,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.99,
+      -2.36
+    ]
+  },
+  {
+    "name": "SF 25B",
+    "max ballast": 0.0,
+    "wing_area": 17.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.9,
+    "speed": [
+      75.0,
+      111.0,
+      135.0
+    ],
+    "sink_rate": [
+      -1.13,
+      -2.1,
+      -3.1
+    ]
+  },
+  {
+    "name": "SF 27",
+    "max ballast": 0.0,
+    "wing_area": 12.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 26.0,
+    "speed": [
+      74.0,
+      105.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.64,
+      -1.0,
+      -2.5
+    ]
+  },
+  {
+    "name": "SF 27M",
+    "max ballast": 0.0,
+    "wing_area": 12.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.0,
+    "speed": [
+      80.0,
+      115.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.72,
+      -1.0,
+      -2.2
+    ]
+  },
+  {
+    "name": "SF 34",
+    "max ballast": 0.0,
+    "wing_area": 14.8,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 36.1,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.9,
+      -1.19,
+      -2.54
+    ]
+  },
+  {
+    "name": "SFS 31",
+    "max ballast": 0.0,
+    "wing_area": 12.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.8,
+    "speed": [
+      85.0,
+      127.0,
+      150.0
+    ],
+    "sink_rate": [
+      -0.85,
+      -1.5,
+      -2.15
+    ]
+  },
+  {
+    "name": "Silent Club",
+    "max ballast": 0.0,
+    "wing_area": 10.3,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 25.2,
+    "speed": [
+      65.0,
+      115.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.62,
+      -1.05,
+      -3.2
+    ]
+  },
+  {
+    "name": "Std Austria S",
+    "max ballast": 0.0,
+    "wing_area": 13.5,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 22.0,
+    "speed": [
+      70.0,
+      118.0,
+      145.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -1.0,
+      -1.5
+    ]
+  },
+  {
+    "name": "Stratos II",
+    "max ballast": 50.0,
+    "wing_area": 16.3,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 17.17,
+    "speed": [
+      50.0,
+      65.0,
+      100.0
+    ],
+    "sink_rate": [
+      -0.95,
+      -1.13,
+      -2.5
+    ]
+  },
+  {
+    "name": "Sunrise II",
+    "max ballast": 0.0,
+    "wing_area": 15.4,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 26.0,
+    "speed": [
+      65.0,
+      100.0,
+      130.0
+    ],
+    "sink_rate": [
+      -1.2,
+      -1.8,
+      -3.0
+    ]
+  },
+  {
+    "name": "Song 120",
+    "max ballast": 0.0,
+    "wing_area": 9.9,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 23.73,
+    "speed": [
+      70.0,
+      85.0,
+      120.0
+    ],
+    "sink_rate": [
+      -1.0,
+      -1.2,
+      -3.0
+    ]
+  },
+  {
+    "name": "SZD50 Puch.",
+    "max ballast": 135.0,
+    "wing_area": 18.16,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 23.95,
+    "speed": [
+      100.0,
+      120.0,
+      150.0
+    ],
+    "sink_rate": [
+      -1.0,
+      -1.42,
+      -2.35
+    ]
+  },
+  {
+    "name": "SZD51-1 Jun.",
+    "max ballast": 0.0,
+    "wing_area": 12.51,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 30.38,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.65,
+      -1.2,
+      -2.8
+    ]
+  },
+  {
+    "name": "SZD55",
+    "max ballast": 195.0,
+    "wing_area": 9.6,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 52.08,
+    "speed": [
+      85.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.9,
+      -0.86,
+      -1.5
+    ]
+  },
+  {
+    "name": "Taurus",
+    "max ballast": 0.0,
+    "wing_area": 12.62,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 37.37,
+    "speed": [
+      94.0,
+      108.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.7,
+      -0.75,
+      -2.2
+    ]
+  },
+  {
+    "name": "Ventus A",
+    "max ballast": 168.0,
+    "wing_area": 9.51,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.6,
+      -0.87,
+      -1.85
+    ]
+  },
+  {
+    "name": "Ventus A-B-16.6",
+    "max ballast": 168.0,
+    "wing_area": 9.96,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 32.5,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.53,
+      -0.93,
+      -1.97
+    ]
+  },
+  {
+    "name": "Ventus B",
+    "max ballast": 168.0,
+    "wing_area": 9.51,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 35.0,
+    "speed": [
+      80.0,
+      125.0,
+      175.0
+    ],
+    "sink_rate": [
+      -0.58,
+      -0.88,
+      -1.93
+    ]
+  },
+  {
+    "name": "Ventus C",
+    "max ballast": 168.0,
+    "wing_area": 10.15,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 33.0,
+    "speed": [
+      80.0,
+      120.0,
+      180.0
+    ],
+    "sink_rate": [
+      -0.52,
+      -0.75,
+      -2.0
+    ]
+  },
+  {
+    "name": "VSO 10",
+    "max ballast": 0.0,
+    "wing_area": 12.0,
+    "method": "3-points",
+    "source": "XCVario",
+    "wing_loading": 28.9,
+    "speed": [
+      83.0,
+      120.0,
+      160.0
+    ],
+    "sink_rate": [
+      -0.65,
+      -1.05,
+      -2.28
+    ]
+  }
 ]

@@ -279,7 +279,14 @@ class PolarsDB:
 			raise Exception('No entry with glider name {} and source {}'.format(glider_name, source) )
 
 		return PolarGlider.factory(filtered_db[0])
-		
+
+	def add(self, new_polar):
+		self.polars_db.append(new_polar)
+	
+	def save (self, filename):
+		with open(filename, 'w', encoding ='utf8') as json_file:
+			json.dump(self.polars_db, json_file, indent = 2)
+
 	@staticmethod
 	def get_instance(json_file = None):
 		if PolarsDB.__instance is None :
