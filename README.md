@@ -7,7 +7,7 @@ The speed polar curve shows the sink rate of a glider against its airspeed. Pola
 * The first tab **Effect of wing loading** allows you select a glider polar among the one of the database and increase or decrease the glider's wing loading, see how the polar shift and what are the new speeds flight for minimum sink rate and for best L/D ratio.
 * The second tab **Compare Polars** allows you to select up to 4 glider polars from the database and compare them.
 
-:tada: Demo application [here](https://glider-polar-analysis-tool--k433595.bluefield-f14a266b.francecentral.azurecontainerapps.io/)
+:tada: Demo application [here](https://glider-polar-analysis-tool.bluefield-f14a266b.francecentral.azurecontainerapps.io)
 
 ![glider flight polar][main-screen]
 
